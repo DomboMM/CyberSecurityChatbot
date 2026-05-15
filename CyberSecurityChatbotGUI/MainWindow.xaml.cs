@@ -32,7 +32,10 @@ namespace CyberSecurityChatbotGUI
         {
             try
             {
-                SoundPlayer player = new SoundPlayer("greeting1.wav");
+                SoundPlayer player = new SoundPlayer(
+                 System.IO.Path.Combine(
+                  AppDomain.CurrentDomain.BaseDirectory, "greeting1.wav")
+ );
                 player.Play();
             }
             catch (Exception ex)
@@ -125,7 +128,7 @@ namespace CyberSecurityChatbotGUI
             // Purpose
             if (input.Contains("purpose"))
             {
-                return "My purpose is to help users stay safe online and learn about cybersecurity.";
+                return "My purpose is to help users stay safe online and learn Sabout cybersecurity.";
             }
 
             // Sentiment detection
