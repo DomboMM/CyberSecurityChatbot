@@ -76,6 +76,7 @@ namespace CyberSecurityChatbotGUI
                         "Review your privacy settings often.",
                         "Avoid sharing personal information online.",
                         "Use secure websites with HTTPS."
+                        "Enable two-factor authentication for better privacy."
                     }
                 },
 
