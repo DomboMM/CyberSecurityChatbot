@@ -124,7 +124,7 @@ namespace CyberSecurityChatbotGUI
             // Greetings
             if (input.Contains("hello") || input.Contains("hi"))
             {
-                return "Hello! How can I help you with cybersecurity today?";
+                return "Hello! Welcome to the Cybersecurity Awareness Chatbot. How can I help you today?";
             }
 
             // Purpose
