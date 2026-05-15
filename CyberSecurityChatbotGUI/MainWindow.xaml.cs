@@ -87,6 +87,7 @@ namespace CyberSecurityChatbotGUI
                         "Be careful of online scams asking for money.",
                         "Never share banking details with strangers.",
                         "Scammers often create fake urgency."
+                        "Do not trust messages promising free prizes."
                     }
                 }
             };
