@@ -61,7 +61,7 @@ The chatbot provides an interactive GUI experience with keyword recognition, mem
 
 
 
-
+link to youtube video https://youtu.be/dg1OX7JvVX8
 
 
 
