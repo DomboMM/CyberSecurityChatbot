@@ -182,7 +182,8 @@ namespace CyberSecurityChatbotGUI
 
         private string GetResponse(string input)
         {
-            if (input.Contains("hello") || input.Contains("hi"))
+            if (input.Trim().Equals("hello") ||
+                input.Trim().Equals("hi"))
                 return "Hello! Welcome to the Cybersecurity Awareness Chatbot. How can I help you today?";
 
             if (input.Contains("purpose"))
@@ -190,6 +191,8 @@ namespace CyberSecurityChatbotGUI
 
             if (input.Contains("worried"))
             {
+                _activityLog.Log("Sentiment detected: Worried", "Sentiment");
+
                 if (input.Contains("phishing"))
                     return "It's understandable to feel worried. Be careful of suspicious emails and never click unknown links.";
 
@@ -203,10 +206,18 @@ namespace CyberSecurityChatbotGUI
             }
 
             if (input.Contains("frustrated"))
+            {
+                _activityLog.Log("Sentiment detected: Frustrated", "Sentiment");
+
                 return "I understand this can feel frustrating. Cybersecurity can be complicated sometimes.";
+            }
 
             if (input.Contains("curious"))
+            {
+                _activityLog.Log("Sentiment detected: Curious", "Sentiment");
+
                 return "Curiosity is great! Learning cybersecurity helps protect your information.";
+            }
 
             foreach (var key in responses.Keys)
             {
@@ -234,8 +245,16 @@ namespace CyberSecurityChatbotGUI
                 }
                 return "Please ask about a cybersecurity topic first.";
             }
+            if (input.Contains("remember") ||
+               input.Contains("what do i like") ||
+               input.Contains("what am i interested in") ||
+               input.Contains("my interest"))
+            {
+                if (!string.IsNullOrEmpty(userInterest))
+                    return $"You told me you are interested in {userInterest}.";
 
-            if (input.Contains("remember") || input.Contains("what do i like"))
+                return "I don't remember your interests yet.";
+            }
             {
                 if (!string.IsNullOrEmpty(userInterest))
                     return $"You told me you are interested in {userInterest}.";
