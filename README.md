@@ -1,6 +1,6 @@
-# 🔒 Cybersecurity Awareness Chatbot
+#  Cybersecurity Awareness Chatbot
 
-## 📌 Project Overview
+##  Project Overview
 This project is a Cybersecurity Awareness Chatbot built using C# and WPF (.NET).  
 It is designed to educate users about cybersecurity topics such as password safety, phishing, privacy, and online scams.
 
@@ -8,42 +8,42 @@ The chatbot provides an interactive GUI experience with keyword recognition, mem
 
 ---
 
-## 🚀 Features
+##  Features
 
-### 🎨 GUI Interface
+###  GUI Interface
 - Built using WPF (Windows Presentation Foundation)
 - Modern pink and purple themed interface
 - User-friendly chat layout with input box and send button
 
-### 🧠 Chatbot Intelligence
+### Chatbot Intelligence
 - Keyword recognition (password, phishing, privacy, scam)
 - Randomized responses for variety
 - Conversation flow support (“tell me more”, “another”)
 
-### 💾 Memory Feature
+### Memory Feature
 - Remembers user interests
 - Can recall what the user likes during conversation
 
-### 😊 Sentiment Detection
+### Sentiment Detection
 - Detects emotions like:
   - Worried
   - Frustrated
   - Curious
 - Adjusts responses to be more supportive
 
-### ⌨️ Input Validation
+###  Input Validation
 - Handles empty inputs
 - Prevents crashes from invalid entries
 
 ---
 
-## 🎤 Voice Greeting (Part 1 Feature)
+## Voice Greeting (Part 1 Feature)
 - Plays a WAV audio file when the application starts
 - Welcomes the user to the chatbot
 
 ---
 
-## 🧱 Project Structure
+##  Project Structure
 - `MainWindow.xaml` → GUI design
 - `MainWindow.xaml.cs` → Chatbot logic
 - `greeting.wav` → Voice greeting file
@@ -51,7 +51,7 @@ The chatbot provides an interactive GUI experience with keyword recognition, mem
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 1. Open the project in Visual Studio
 2. Restore dependencies if needed
@@ -61,7 +61,7 @@ The chatbot provides an interactive GUI experience with keyword recognition, mem
 
 
 
-
+link to youtube video https://youtu.be/dg1OX7JvVX8
 
 
 
@@ -70,14 +70,14 @@ The chatbot provides an interactive GUI experience with keyword recognition, mem
 
 ---
 
-## 📂 GitHub Repository Features
+##  GitHub Repository Features
 - Minimum 6 meaningful commits
 - Clean project structure
 - GitHub version control used correctly
 
 ---
 
-## 🧪 Example Usage
+##  Example Usage
 
 **User:** password  
 **Bot:** Use strong passwords with symbols and numbers.
@@ -87,7 +87,7 @@ The chatbot provides an interactive GUI experience with keyword recognition, mem
 
 ---
 
-## 👨‍💻 Developer Notes
+##  Developer Notes
 This project demonstrates:
 - Object-Oriented Programming (OOP)
 - Event-driven programming (WPF)
@@ -97,7 +97,7 @@ This project demonstrates:
 
 ---
 
-## 📌 Future Improvements (Part 3)
+##  Future Improvements (Part 3)
 - Advanced AI responses
 - Database integration
 - User login system
