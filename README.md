@@ -86,7 +86,7 @@ The chatbot provides an interactive GUI experience with keyword recognition, mem
 6. Run using F5
 
 Part 2 video: https://youtu.be/dg1OX7JvVX8
-Part 3 video: **[ADD LINK HERE]**
+Part 3 video: https://www.youtube.com/watch?v=vb_7GiGYjn8
 
 ---
 
